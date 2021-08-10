@@ -9,13 +9,15 @@ import { UsersearchService } from './services/usersearch.service';
 import { UserComponent } from './components/user/user.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SearchuserComponent } from './components/searchuser/searchuser.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
     NavbarComponent,
-    SearchuserComponent
+    SearchuserComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,

@@ -4,8 +4,8 @@
 
 export const environment = {
   production: false,
-  clientId: "ec3f3a99ff12baad1844",
-  clientSecret: "11a9838455165d1f5e4355a00a09c4dc62bb0f23"
+  clientId: 'your client id',
+  clientSecret: 'your client secret'
 };
 
 /*

@@ -36,7 +36,7 @@ export class UserComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.searchGithubUser('DennisNjeru9')
+    this.searchGithubUser('denn-is-njeruh')
   }
 
 }
